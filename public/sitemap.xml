@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    <url>
+        <loc>http://prohealth-laravel.test/blogs</loc>
+        <lastmod>2025-03-26T11:03:36+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/shop</loc>
+        <lastmod>2025-03-26T11:03:36+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/cart</loc>
+        <lastmod>2025-03-26T11:03:36+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/main-home</loc>
+        <lastmod>2025-05-13T05:01:20+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/home-2</loc>
+        <lastmod>2025-05-11T12:24:14+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/home-3</loc>
+        <lastmod>2025-05-13T05:08:31+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/home-4</loc>
+        <lastmod>2025-05-13T05:18:18+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/home-5</loc>
+        <lastmod>2025-05-13T05:47:39+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/home-6</loc>
+        <lastmod>2025-05-06T14:28:03+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/home-7</loc>
+        <lastmod>2025-05-09T09:00:32+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/about</loc>
+        <lastmod>2025-05-06T14:32:46+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/doctors</loc>
+        <lastmod>2025-05-06T14:33:01+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/appointments</loc>
+        <lastmod>2025-05-06T14:35:13+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/departments</loc>
+        <lastmod>2025-05-06T14:35:26+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/pricing-plan</loc>
+        <lastmod>2025-05-06T14:36:02+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/gallery</loc>
+        <lastmod>2025-05-06T14:36:18+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/timetable</loc>
+        <lastmod>2025-05-06T14:36:32+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/contact</loc>
+        <lastmod>2025-05-06T14:36:44+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/test-page</loc>
+        <lastmod>2025-05-10T04:21:14+00:00</lastmod>
+
+            </url>
+    <url>
+        <loc>http://prohealth-laravel.test/test-radio</loc>
+        <lastmod>2025-05-12T11:01:20+00:00</lastmod>
+
+            </url>
+</urlset>
