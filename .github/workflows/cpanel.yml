@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rahatanw/portal.rahatanwarhospital.com/
+    - /bin/cp -R images $DEPLOYPATH
+    
