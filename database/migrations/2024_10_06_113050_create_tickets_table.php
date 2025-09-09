@@ -19,8 +19,8 @@ return new class extends Migration
             $table->longText('message');
             $table->string('documents')->nullable();
             $table->string('original_file_name')->nullable();
-            $table->enum('properly', ['high', 'low'])->default('high');
-            $table->enum('status', ['pending', 'open', 'solved'])->default('pending');
+            $table->string('properly', 50)->default('high');
+            $table->string('status', 50)->default('pending');
             $table->boolean('is_viewed')->default(false);
             $table->boolean('is_client_viewed')->default(false);
             $table->timestamps();

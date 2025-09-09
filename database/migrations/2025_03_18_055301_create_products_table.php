@@ -17,8 +17,8 @@ return new class extends Migration {
             $table->decimal('discount_price')->nullable();
             $table->string('thumbnail_image');
             $table->json('slider_images')->nullable();
-            $table->unsignedTinyInteger('is_featured')->default(0)->comment('0 means will not show in home page, 1 means will show in home page');
-            $table->unsignedTinyInteger('status')->default(1)->comment('0 means inactive, 1 means active');
+            $table->unsignedSmallInteger('is_featured')->default(0)->comment('0 means will not show in home page, 1 means will show in home page');
+            $table->unsignedSmallInteger('status')->default(1)->comment('0 means inactive, 1 means active');
             $table->string('seo_title')->nullable();
             $table->text('seo_description')->nullable();
             $table->timestamps();

@@ -13,10 +13,10 @@ return new class extends Migration {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('slug', 255);
-            $table->unsignedTinyInteger('user_id')->comment('User Id, Who published the post');
+            $table->unsignedSmallInteger('user_id')->comment('User Id, Who published the post');
             $table->unsignedInteger('category_id');
             $table->string('thumbnail_image', 100)->nullable();
-            $table->enum('status', [0, 1])->comment('0 means unpublished, 1 means published')->default(0);
+            $table->smallInteger('status')->comment('0 means unpublished, 1 means published')->default(0);
             $table->string('meta_image', 255)->nullable();
             $table->timestamps();
         });

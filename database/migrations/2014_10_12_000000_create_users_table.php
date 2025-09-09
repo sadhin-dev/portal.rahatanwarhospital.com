@@ -19,7 +19,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('provider_id', 100)->nullable();
-            $table->enum('provider', ['facebook', 'twitter', 'linkedin', 'google', 'github', 'gitlab', 'bitbucket'])->nullable();
+            $table->string('provider', 50)->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

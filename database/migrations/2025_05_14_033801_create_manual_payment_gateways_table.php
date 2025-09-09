@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('manual_payment_gateways', function (Blueprint $table) {
             $table->id();
             $table->json('bank_information')->nullable();
-            $table->enum('payment_type', ['custom_payment', 'bank_payment', 'cheque_payment'])->default('custom_payment');
-            $table->enum('status', [0, 1])->comment('0 means inactive, 1 means active')->default(1);
+            $table->string('payment_type', 50)->default('custom_payment');
+            $table->smallInteger('status')->comment('0 means inactive, 1 means active')->default(1);
             $table->timestamps();
         });
 

@@ -25,8 +25,8 @@ return new class extends Migration
             $table->string('transaction_id', 255)->nullable();
             $table->string('receipt_file', 255)->nullable();
             $table->decimal('discount', 10, 2)->nullable();
-            $table->enum('status', ['pending', 'confirmed', 'canceled', 'completed'])->default('pending');
-            $table->enum('payment_status', [0, 1, 2, 3])->comment('0 initialize, 1 awaiting payment, 2 success, 3 cancel')->default(0);
+            $table->string('status', 50)->default('pending');
+            $table->smallInteger('payment_status')->comment('0 initialize, 1 awaiting payment, 2 success, 3 cancel')->default(0);
             $table->string('order_notes')->nullable();
             $table->timestamps();
         });

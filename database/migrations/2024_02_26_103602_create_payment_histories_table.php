@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedInteger('plan_id')->index();
             $table->string('method', 100);
             $table->decimal('amount');
-            $table->enum('status', ['pending', 'awaiting_payment', 'success', 'failed'])->default('pending');
+            $table->string('status', 50)->default('pending');
             $table->string('name', 255);
             $table->string('email', 255);
             $table->string('mobile', 20);

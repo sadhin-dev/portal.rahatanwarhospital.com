@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('identifier', 255);
             $table->string('name', 255);
             $table->string('thumbnail_image', 255);
-            $table->enum('is_active', ['0', '1']);
+            $table->string('is_active', 50);
             $table->timestamps();
         });
     }

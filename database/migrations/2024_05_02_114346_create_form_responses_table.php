@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('response_from', 255)->nullable();
             $table->json('response_data');
-            $table->enum('is_open', [0, 1])->default(0)->comment('0 not open, 1 open');
+            $table->smallInteger('is_open')->default(0)->comment('0 not open, 1 open');
             $table->timestamps();
         });
     }

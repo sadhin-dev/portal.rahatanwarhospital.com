@@ -13,10 +13,10 @@ return new class extends Migration {
         Schema::create('pages', function (Blueprint $table) {
             $table->id();
             $table->string('slug')->unique();
-            $table->enum('type', ['custom', 'regular']);
+            $table->string('type', 50);
             $table->string('rendered_page', 20)->default('basic');
             $table->json('sections')->nullable();
-            $table->tinyInteger('is_show_breadcrumb')->default(0);
+            $table->smallInteger('is_show_breadcrumb')->default(0);
             $table->string('breadcrumb_image')->nullable();
             $table->string('meta_image', 255)->nullable();
             $table->integer('header_layout');

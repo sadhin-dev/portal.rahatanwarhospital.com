@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email');
             $table->decimal('rating', 2, 1)->default(0.0);
             $table->text('review');
-            $table->enum('is_approved', [0, 1])->comment('0 means no, 1 means yes')->default(0);
+            $table->smallInteger('is_approved')->comment('0 means no, 1 means yes')->default(0);
             $table->timestamps();
         });
     }

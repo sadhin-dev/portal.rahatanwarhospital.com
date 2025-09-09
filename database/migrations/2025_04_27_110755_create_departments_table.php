@@ -16,7 +16,7 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id');
             $table->string('slug', 255);
             $table->text('sections')->nullable();
-            $table->tinyInteger('is_show_breadcrumb')->default(0);
+            $table->smallInteger('is_show_breadcrumb')->default(0);
             $table->string('breadcrumb_image')->nullable();
             $table->string('meta_image', 255)->nullable();
             $table->integer('header_layout');

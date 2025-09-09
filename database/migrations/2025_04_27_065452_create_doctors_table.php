@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('slug', 255);
             $table->text('sections')->nullable();
-            $table->tinyInteger('is_show_breadcrumb')->default(0);
+            $table->smallInteger('is_show_breadcrumb')->default(0);
             $table->string('breadcrumb_image')->nullable();
             $table->string('meta_image', 255)->nullable();
             $table->integer('header_layout');
@@ -39,7 +39,7 @@ return new class extends Migration
 
             // Foreign key constraint
             $table->foreign('doctor_id')
-                ->references('id')->on('doctor_contents')
+                ->references('id')->on('doctors')
                 ->onDelete('cascade');
         });
     }

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
             $table->string('ticket_id', 100);
-            $table->enum('is_open', [0, 1])->default(0)->comment('0 not open, 1 open');
+            $table->smallInteger('is_open')->default(0)->comment('0 not open, 1 open');
             $table->string('name', 100);
             $table->string('email', 100);
             $table->string('project_type', 100);
